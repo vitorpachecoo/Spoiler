@@ -3,9 +3,16 @@ import './Time.css'
 
 const Time = (props) => {
   return (
-    <section className='time' style={{ backgroundColor: props.corSegundaria }}>
+    props.colaboradores.length > 0 && <section className='time' style={{ backgroundColor: props.corSegundaria }}>
       <h3 style={{ borderColor: props.corPrimaria }}>{props.nome}</h3>
-      {props.colaboradores.map( colaborador => <Colaborador nome={colaborador.nome} cargo={colaborador.cargo}/>)}
+
+      <div className='colaboradores'>
+        {props.colaboradores.map(colaborador => <Colaborador
+          nome={colaborador.nome}
+          cargo={colaborador.cargo}
+          imagem={colaborador.imagem}
+          time={colaborador.time} />)}
+      </div>
     </section>
   )
 }

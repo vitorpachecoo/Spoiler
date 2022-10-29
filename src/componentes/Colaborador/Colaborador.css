@@ -7,10 +7,13 @@
   border-radius: 10px 10px 0px 0px;
 }
 .colaborador img {
-  width: 100px;
-  border-radius: 50%;
+  width: 160px;
+  border-radius: 25%;
   position: relative;
   bottom: -50px;
+  max-width: 350px;
+  max-height: 250px;
+  box-shadow: 10px 25px 30px #858282;
 }
 
 .colaborador .rodape {

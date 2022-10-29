@@ -9,8 +9,8 @@ function App() {
   const times = [
     {
       nome: 'Programação',
-      corPrimaria:'#D9F7E9',
-      corSegundaria:'#BFEAA7' 
+      corPrimaria:'#A6D157',
+      corSegundaria:'#BFEA99' 
     },
     {
       nome: 'Front-End',
@@ -61,7 +61,7 @@ function App() {
     nome={time.nome} 
     corPrimaria={time.corPrimaria}
     corSegundaria={time.corSegundaria} 
-    colaboradores={colaboradores}/>)}
+    colaboradores={colaboradores.filter(colaborador => colaborador.time === time.nome)}/>)}
     </div>
   );
 }
