@@ -18,8 +18,3 @@
   padding: 24px;
   box-sizing: border-box;
 }
-
-.campo-texto input:focus{
-  color: rgb(115, 65, 165);
-  border: aquamarine;
-}
