@@ -1,12 +1,25 @@
 /* src/componentes/Rodape/index.js */
 
 .footer {
-  background: #6278F7;
+  background: #5D95E1;
   color: #FFF;
-  padding: 30px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+p {
+  margin-right: 35px;
+}
+
+img {
+  margin-left: 25px;
+}
+
+.sociais img:hover {
+  width: 40px;
 }
 
 .footer ul li {

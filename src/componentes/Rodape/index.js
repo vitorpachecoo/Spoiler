@@ -3,7 +3,7 @@ import './rodape.css'
 const Rodape = () => {
   return (
     <footer className='footer'>
-      <section>
+      <section className='sociais'>
         <ul>
           <li>
             <a href="facebook.com" target="_blank">
@@ -23,7 +23,7 @@ const Rodape = () => {
         </ul>
       </section>
       <section>
-        <img src="/imagens/logo.png" alt="" />
+        <img src="/imagens/logo2.png" alt="" />
       </section>
       <section>
         <p>

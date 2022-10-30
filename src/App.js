@@ -5,50 +5,52 @@ import Formulario from './componentes/Formulario';
 import Rodape from './componentes/Rodape';
 import Time from './componentes/Time';
 
+
 function App() {
 
   const times = [
     {
-      nome: 'Programação',
+      nome: 'Melhores filmes',
       corPrimaria:'#A6D157',
       corSegundaria:'#BFEA99' 
     },
     {
-      nome: 'Front-End',
+      nome: 'Melhores séries',
       corPrimaria:'#82CFFA',
       corSegundaria:'#E8F8FF' 
     },
     {
-      nome: 'Data Science',
+      nome: 'Melhores desenhos',
       corPrimaria:'#A6D157',
       corSegundaria:'#F0F8E2' 
     },    
     {
-      nome: 'Devops',
+      nome: 'Lançamentos',
       corPrimaria:'#E06B69',
       corSegundaria:'#FDE7E8' 
-    },
+    }
+    /*
+    ,
     {
-      nome: 'UX e Design',
+      nome: 'Séries',
       corPrimaria:'#DB6EBF',
       corSegundaria:'#FAE9F5' 
     },
     {
-      nome: 'Mobile',
+      nome: 'Desenhos',
       corPrimaria:'#FFBA05',
       corSegundaria:'#FFF5D9' 
     },
     {
-      nome: 'Inovação e Gestor',
+      nome: 'Filmes, Séries e Desenhos Destaque',
       corPrimaria:'#FF8A29',
       corSegundaria:'#FFEEDF' 
-    }
+    }*/
   ] 
 
   const [colaboradores, setColaboradores] = useState ([])
 
   const aoNovoColaboradorAdicionado = (colaborador) => {
-    debugger
     setColaboradores([...colaboradores, colaborador])
   }
   
