@@ -12,11 +12,13 @@ Agradecer ao instrutor Vinicios Neves que tem uma didática incrível e explica 
 
   #
   
-Tecnologias Utilizadas
-´´´
-REACT <br>
-CSS
-´´´´
+<h2> Tecnologias Utilizadas <h2/>
 
-  
+```
+REACT
+CSS
+```
+
+ 
+ 
 Link do projeto (deploy): https://lnkd.in/dpkQqzqF
